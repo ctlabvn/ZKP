@@ -27,3 +27,4 @@ all:
 
 clean:
 	$(RM) test.o test
+	

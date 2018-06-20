@@ -1,13 +1,17 @@
 {
   "name": "zero-knowledge-proofs",
   "version": "0.0.1",
-  "description": "Zero Knowledge Proofs and how they can be implemented in Quorum",
+  "description":
+    "Zero Knowledge Proofs and how they can be implemented in Quorum",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "docker-compose up -d",
+    "stop": "docker-compose down",
+    "bash": "docker-compose exec zkp bash"
   },
   "repository": {
     "type": "git",
